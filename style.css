@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.top-nav {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.top-nav a {
+  color: #00b894;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.top-nav a:hover {
+  color: #fff;
+}
+
+.music-app {
+  width: 320px;
+  background: #222;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#progress {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.playlist {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.song {
+  padding: 10px;
+  background: #333;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.song:hover {
+  background: #444;
+}
+
+#upload {
+  margin-top: 15px;
+  color: white;
+}

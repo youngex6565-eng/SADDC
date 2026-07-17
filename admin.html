@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+  <div class="admin-panel">
+
+    <div class="top-nav">
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="artist-dashboard.html">Artist Dashboard</a>
+    </div>
+
+    <!-- SIDEBAR -->
+
+    <div class="sidebar">
+
+      <h2>🎵 Admin Panel</h2>
+
+      <ul>
+        <li>Dashboard</li>
+        <li>Artists</li>
+        <li>Songs</li>
+        <li>Users</li>
+        <li>Analytics</li>
+        <li>Logout</li>
+      </ul>
+
+    </div>
+
+    <!-- MAIN -->
+
+    <div class="main">
+
+      <h1>Welcome Admin</h1>
+
+      <!-- STATS -->
+
+      <div class="stats">
+
+        <div class="card">
+          <h2 id="totalArtists">0</h2>
+          <p>Total Artists</p>
+        </div>
+
+        <div class="card">
+          <h2 id="totalSongs">0</h2>
+          <p>Total Songs</p>
+        </div>
+
+        <div class="card">
+          <h2 id="totalUsers">0</h2>
+          <p>Total Users</p>
+        </div>
+
+      </div>
+
+      <!-- SONG LIST -->
+
+      <div class="songs-section">
+
+        <h2>Uploaded Songs</h2>
+
+        <div id="songsContainer"></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+
+</html>

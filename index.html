@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>dc Music App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="top-nav">
+    <a href="login.html">Login</a>
+    <a href="signup.html">Signup</a>
+    <a href="artist-dashboard.html">Artist Dashboard</a>
+    <a href="admin.html">Admin Panel</a>
+  </nav>
+
+  <div class="music-app">
+
+    <h1>🎵 dc Music</h1>
+    <input type="file" id="upload" multiple accept="audio/*">
+
+    <img id="cover" src="https://picsum.photos/300" alt="cover">
+
+    <h2 id="title">Loading...</h2>
+
+    <audio id="audio"></audio>
+
+    <input type="range" id="progress" value="0">
+
+    <div class="controls">
+      <button id="prev">⏮</button>
+      <button id="play">▶</button>
+      <button id="next">⏭</button>
+    </div>
+
+    <div class="playlist" id="playlist"></div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
